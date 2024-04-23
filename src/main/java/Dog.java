@@ -11,11 +11,11 @@ public class Dog extends Animal{
     }
 
     @Override
-    public String showMood() {
-        if (true) {
-            return "knurrer";
-        } else {
+    public String showMood(boolean erGlad) {
+        if (erGlad) {
             return "logrer";
+        } else {
+            return "knurrer";
         }
     }
 

@@ -8,6 +8,9 @@ public class Main {
 
         cat.eat("cat food");
         dog.eat("dog food");
+
+        }
+
     }
 
 
