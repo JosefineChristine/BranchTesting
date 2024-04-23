@@ -3,8 +3,8 @@ public class Main {
         Cat cat = new Cat();
         Dog dog = new Dog();
 
-        System.out.println(dog.makeSound());
-        System.out.println(cat.makeSound());
+        System.out.println("cat" + dog.makeSound());
+        System.out.println("dog" + cat.makeSound());
 
         cat.eat("cat food");
         dog.eat("dog food");
