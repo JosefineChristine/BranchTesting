@@ -7,7 +7,7 @@ public class Main {
         System.out.println(cat.makeSound());
 
         cat.eat("cat food");
-        dog.eat("dog food")
+        dog.eat("dog food");
     }
 
 
