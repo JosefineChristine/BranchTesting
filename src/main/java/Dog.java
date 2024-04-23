@@ -10,5 +10,15 @@ public class Dog extends Animal{
         return true;
     }
 
+    @Override
+    public String showMood() {
+        if (true) {
+            return "knurrer";
+        } else {
+            return "logrer";
+        }
+    }
+
+
 
 }
