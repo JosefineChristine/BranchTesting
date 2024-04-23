@@ -4,4 +4,11 @@ public class Dog extends Animal{
     public String makeSound() {
         return "vuf";
     }
+
+    @Override
+    public boolean eat(String foodType) {
+        return true;
+    }
+
+
 }
